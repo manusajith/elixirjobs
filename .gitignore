@@ -18,7 +18,10 @@ erl_crash.dump
 /priv/static/css
 /priv/static/js
 /priv/static/fonts
-
+/priv/static/themes
+/priv/static/images
+/priv/static/cache_manifest.json
+/priv/static/robots*
 # The config/prod.secret.exs file by default contains sensitive
 # data and you should not commit it into version control.
 #
