@@ -1,4 +1,4 @@
-# ElixirJobs
+# Elixir Career
 
 To start this Phoenix application:
 

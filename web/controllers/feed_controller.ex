@@ -5,9 +5,9 @@ defmodule ElixirJobs.FeedController do
   alias Exrethinkdb.Query
   alias ElixirJobs.Repo
 
-  @title "ElixirDose Jobs"
-  @baseurl "http://jobs.elixirdose.com"
-  @description "Elixir Jobs is the best place to find, list jobs and developer community space specifically for Elixir Programming Language."
+  @title "Elixir Career"
+  @baseurl "https://elixir.career"
+  @description "Elixir Career is the best place to find, list jobs and developer community space specifically for Elixir Programming Language."
   @lang "en-us"
 
   defp format_rfc(date) do

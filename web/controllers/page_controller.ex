@@ -67,7 +67,7 @@ defmodule ElixirJobs.PageController do
 
     conn
     |> assign(:job, job)
-    |> assign(:page_title, job["title"] <> " - " <> job["company"] <> " | Elixir Jobs")
+    |> assign(:page_title, job["title"] <> " - " <> job["company"] <> " | Elixir Career")
     |> render("show.html")
   end
 
@@ -106,7 +106,7 @@ defmodule ElixirJobs.PageController do
       job = hd(result.data)
       conn
       |> assign(:job, job)
-      |> assign(:page_title, job["title"] <> " - " <> job["company"] <> " | Elixir Jobs")
+      |> assign(:page_title, job["title"] <> " - " <> job["company"] <> " | Elixir Career")
       |> render("edit.html")
     else
       conn
